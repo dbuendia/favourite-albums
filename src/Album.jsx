@@ -2,6 +2,8 @@ import React, { Fragment } from "react";
 import heart from "./icons/heart.svg";
 
 function Album(props) {
+  // Las props de Album están recogiendo los valores recibe dentro de cada llamada a Album en la función App
+  // Es cada objeto album con sus propiedades. A su vez, recibe estas propiedades en App desde un dataset.
   return (
     <React.Fragment>
       <div className="album-container">
